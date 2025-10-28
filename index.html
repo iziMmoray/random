@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random 3D Playground</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="overlay">
+      <header>
+        <h1>Random 3D Playground</h1>
+        <p>
+          A living canvas built with Three.js &mdash; refresh for a brand new
+          arrangement of shapes, colors, and motion.
+        </p>
+      </header>
+      <div class="controls">
+        <button id="shuffle">Shuffle the Scene</button>
+        <p class="hint">Click and drag to orbit • Scroll to zoom • Move your mouse to sway the cluster</p>
+      </div>
+    </div>
+    <canvas id="scene"></canvas>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
