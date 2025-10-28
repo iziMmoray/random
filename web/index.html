@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Cosmic Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="nav">
+        <span class="logo">Random<span>Cosmic</span></span>
+        <nav class="links">
+          <a href="#about">About</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section class="hero">
+          <div class="hero__text">
+            <h1>Design the unexpected.</h1>
+            <p>
+              Drift through an interactive galaxy of playful geometry powered by
+              <strong>Three.js</strong>. Every refresh reshapes the cosmos.
+            </p>
+            <button class="hero__cta">Launch a project</button>
+          </div>
+          <div class="hero__visual">
+            <canvas id="scene"></canvas>
+            <div class="hero__label">Dynamic 3D portal</div>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <h2>We craft dreamlike interfaces</h2>
+          <p>
+            Our studio blends cutting-edge WebGL graphics with bold layouts to
+            create immersive brand experiences. From interactive art pieces to
+            data-driven dashboards, every project we touch becomes a living
+            story.
+          </p>
+        </section>
+
+        <section class="section" id="showcase">
+          <h2>Featured explorations</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Holographic Atlas</h3>
+              <p>Interactive 3D travel planner built on top of orbital data.</p>
+            </article>
+            <article class="card">
+              <h3>Celestial Soundscapes</h3>
+              <p>Generative audio-reactive sculptures for live performances.</p>
+            </article>
+            <article class="card">
+              <h3>Quantum Garden</h3>
+              <p>Real-time particle ecosystem controlled by biometric input.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <h2>Ready to build together?</h2>
+          <p>
+            Drop us a line and let's make something unforgettable.
+            <a href="mailto:hello@randomcosmic.studio">hello@randomcosmic.studio</a>
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer">© 2024 Random Cosmic Studio</footer>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
